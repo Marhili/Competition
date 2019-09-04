@@ -9,21 +9,12 @@
   padding-left:680px;
 }
 
-#nxtpg{
-  padding-left: 420px;
+.btn1{
+  padding-left: 425px;
 }
 
-.btn{
+#btn2{
   height: 90px;
   width: 200px;
   font-size: 20px;
-}
-
-div.contrast{
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
