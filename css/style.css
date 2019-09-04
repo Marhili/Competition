@@ -64,7 +64,7 @@ body {margin:0;}
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 25px;
+  padding: 12px;
   transition: all 0.3s ease;
   color: white;
   font-size: 15px;
@@ -107,4 +107,10 @@ body {margin:0;}
   background-color: black;
   color: white;
   text-align: center;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-size: 4em;
 }
