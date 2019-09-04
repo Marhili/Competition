@@ -98,3 +98,13 @@ body {margin:0;height:2000px;}
   background: #bb0000;
   color: white;
 }
+
+.footer{
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
