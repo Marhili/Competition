@@ -51,7 +51,7 @@ h2{
   font-size: 1.5em;
 }
 
-body {margin:0;height:2000px;}
+body {margin:0;}
 
 .icon-bar {
   position: fixed;
@@ -107,5 +107,4 @@ body {margin:0;height:2000px;}
   background-color: black;
   color: white;
   text-align: center;
-  margin-bottom: 0px;
 }
