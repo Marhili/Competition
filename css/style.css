@@ -5,8 +5,10 @@
   width: 50%;
 }
 
-#search1{
-  padding-left:680px;
+@media screen and (max-width: 600px){
+  #search1{
+    padding-left:680px;
+  }
 }
 
 .btn1{
@@ -183,10 +185,6 @@ input[type=submit]: hover{
 
 @media screen and (max-width: 600px){
   .column1, input[type=submit]{
-    width: 100%;
-    margin-top: 0;
-  }
-  #search1{
     width: 100%;
     margin-top: 0;
   }
