@@ -171,7 +171,7 @@ input[type=submit]: hover{
   float: left;
   width: 50%;
   margin-top: 6px;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .row:after{
