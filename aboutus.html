@@ -45,7 +45,7 @@
         </nav>
 
         <div>
-          <h3><strong><em>WHO ARE WE</em><strong><h3>
+          <h3><strong><em>WHO ARE WE</em></strong><h3>
         </div>
 
         <p>
@@ -61,7 +61,7 @@
         </div>
 
         <div>
-          <h4><strong>Contact Us!<strong><h4>
+          <h4><strong>Contact Us!</strong><h4>
         </div>
 
     <div class="container">
@@ -74,11 +74,27 @@
             <input type="text" id="lname" name="lastname" placeholder="Your last name...">
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write your message..." style="height: 170px"></textarea>
-            <input type="submit" value="Submit">
+            <button onclick="Functionsub()">Submit</button>
+            <script>
+            function Functionsub(){
+              window.alert("Thank you for messaging us. We will get back to you soon.");
+            }
+            </script>
           </form>
         </div>
       </div>
     </div>
 
+    <div class="footer">
+      <p>&copy Trendy</p>
+    </div>
+
+    <div class="icon-bar">
+      <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.google.com" class="google"><i class="fa fa-google"></i></a>
+      <a href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
       </body>
       </html>
