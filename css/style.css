@@ -133,5 +133,56 @@ p{
   text-align: center, justify;
   letter-spacing: 3px;
   font-size: 1.5em;
-  padding-left: 25px;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+
+h4{
+  color: black;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 25px;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]: hover{
+  background-color: #45a049;
+}
+
+.container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column1{
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px){
+  .column1, input[type=submit]{
+    width: 100%;
+    margin-top: 0;
+  }
 }
