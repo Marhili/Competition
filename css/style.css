@@ -5,10 +5,8 @@
   width: 50%;
 }
 
-@media screen and (max-width: 600px){
-  #search1{
-    padding-left:680px;
-  }
+#search1{
+  padding-left:680px;
 }
 
 .btn1{
